@@ -9,6 +9,9 @@ app.get('/', function(request, response){
 app.get('/user', function(request, response){
     response.send("<h1>hello may thang user</h1>")
 })
+app.get('/customer', function(request, response){
+    response.send("<h1>hello may thang customer</h1>")
+})
 
 //GET, POST, REQUEST
 
